@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+</head>
+
+<body>
+  <h1>Trip form for our school trip</h1>
+  <form action="form.js">
+    <input type="text" placeholder="Enter your name" />
+    <br>
+    <label for="sectionida">
+      <input type="radio" value="section a" name="section" id="sectionida" />
+      Section A
+    </label>
+
+    <label for="sectionidb">
+      <input type="radio" value="section b" name="section" id="sectionidb" />
+      Section B
+    </label>
+
+    <label for="sectionidc">
+      <input type="radio" value="section c" name="section" id="sectionidc" />
+      Section C
+    </label>
+
+    <label for="checkbox"><input type="checkbox" value="section c" name="want food card from canteen"
+        id="checkbox" />Want canteen
+      card</label>
+    <br>
+    <label for="date"><input type="datetime-local" value="select date" name="select date" id="date" />
+      Select Date</label>
+    <br>
+    <label for="file"><input type="file" value="file" name="file upload" id="file"></label>
+    <br>
+    <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain why you want to join"></textarea>
+    <br>
+    <select name="cars" id="cars">
+      <option value="no-car">Select car</option>
+      <option value="car1">Alto</option>
+      <option value="car2">Swift</option>
+      <option value="car3">Baleno</option>
+      <option value="car4">Nexon</option>
+    </select>
+  </form>
+</body>
+
+</html>
